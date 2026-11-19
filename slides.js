@@ -23,22 +23,39 @@ window.BOOTCAMP_SLIDES = [
   {
     "section": "SPEAKER",
     "title": "Meet your speaker",
-    "lead": "Shah Bakhsh · Computer Science student & AI builder",
+    "lead": "Shah Bakhsh — AI & Automation Builder",
     "points": [
-      "University of Turbat · interested in AI Engineering, NLP and agentic AI",
-      "Built BalBERT and BalPOS research projects for Balochi-language NLP",
-      "Exploring AI solutions for education, automation and communities"
+      "Computer Science student at the University of Turbat",
+      "Interested in AI engineering, LLMs, intelligent agents and practical automation",
+      "Helping students explore tools they can use for learning, creativity and their careers"
     ],
     "prompt": "",
-    "challenge": "Let's make AI useful for every student—not just computer science students.",
+    "challenge": "The focus today is what you can create with AI, even if you are completely new.",
     "visual": [
-      "LinkedIn: linkedin.com/in/shah-bakhsh/",
-      "GitHub: github.com/shah-bakhsh",
-      "Balochi-first AI research"
+      "Computer Science",
+      "AI & Automation",
+      "Student Learning"
     ],
     "link": "",
-    "note": "Introduce yourself naturally: your connection to University of Turbat, your Balochi NLP work, and why you want practical AI skills to reach more students.",
+    "note": "Introduce yourself naturally. I'm Shah Bakhsh, a Computer Science student at the University of Turbat. I enjoy exploring AI and automation, and my aim is to help everyone here try useful AI tools themselves.",
     "layout": "speaker"
+  },
+  {
+    "section": "THE MISSION",
+    "title": "Today, you become a creator.",
+    "lead": "Not just a user of AI.",
+    "points": [
+      "Understand it. Question it. Build with it."
+    ],
+    "prompt": "",
+    "challenge": "By the end, try one prompt, create something and see a real automation work.",
+    "visual": [
+      "UNDERSTAND",
+      "QUESTION",
+      "BUILD"
+    ],
+    "layout": "mission",
+    "note": "Set the tone for the workshop: everybody is here to make, not only listen. Ask students to think of one task AI could help them do today."
   },
   {
     "section": "YOUR JOURNEY",
@@ -59,7 +76,8 @@ window.BOOTCAMP_SLIDES = [
       "FUTURE"
     ],
     "link": "",
-    "note": "Explain what you'll learn today using a practical University of Turbat or everyday-life example. Invite the audience to take part: Keep your phone ready: every live tool includes a student challenge."
+    "note": "Explain what you'll learn today using a practical University of Turbat or everyday-life example. Invite the audience to take part: Keep your phone ready: every live tool includes a student challenge.",
+    "layout": "cards"
   },
   {
     "section": "HOW TO PARTICIPATE",
@@ -135,13 +153,12 @@ window.BOOTCAMP_SLIDES = [
     "prompt": "Write a simple 100-word speech for a student presenting at the University of Turbat. Explain how AI can help young people in Balochistan learn, create and solve local problems. Include one realistic example and a hopeful closing.",
     "challenge": "Replace 'speech' with 'WhatsApp invitation' and compare.",
     "visual": [
-      "WEAK REQUEST",
-      "CLEAR GOAL",
-      "LOCAL CONTEXT",
-      "USABLE OUTPUT"
+      "WEAK: Write about AI.",
+      "BETTER: Write an event message with audience, purpose, context and output."
     ],
     "link": "",
-    "note": "Explain weak prompt vs. strong prompt using a practical University of Turbat or everyday-life example. Invite the audience to take part: Replace 'speech' with 'WhatsApp invitation' and compare."
+    "note": "Explain weak prompt vs. strong prompt using a practical University of Turbat or everyday-life example. Invite the audience to take part: Replace 'speech' with 'WhatsApp invitation' and compare.",
+    "layout": "compare"
   },
   {
     "section": "ZERO-SHOT",
@@ -464,23 +481,24 @@ window.BOOTCAMP_SLIDES = [
   },
   {
     "section": "CLAUDE LIVE DEMO",
-    "title": "Turn a job advertisement into a resume",
-    "lead": "A useful career activity—not a made-up biography.",
+    "title": "Live demo: a complete AI-generated resume",
+    "lead": "One complete sample — job and candidate details already included.",
     "points": [
-      "Paste a real or fictional job description.",
-      "Provide only actual skills, education and experience.",
-      "Ask Claude to tailor the wording without inventing facts.",
-      "Review before submitting to an employer."
+      "We'll use a fictional entry-level job advertisement and a fictional candidate.",
+      "The prompt includes all information: just copy, paste, and generate.",
+      "AI must organize the facts honestly—not invent grades or experience.",
+      "Never send this fictional sample as a real job application."
     ],
-    "prompt": "Act as a career mentor. Create an ATS-friendly one-page resume for an entry-level job using ONLY my real details. First ask for my education, skills, projects and the job description. Never invent achievements, grades, job experience or certificates. Mark missing details [NEEDS INPUT]. Then draft my resume.",
-    "challenge": "Use your own truthful information. Review every claim.",
+    "prompt": "You are a professional career mentor and ATS resume writer. Create a polished, ONE-PAGE resume tailored to the job below. ALL details are fictional and are provided for a classroom demonstration. Do NOT ask me any questions: everything needed is included.\n\nJOB ADVERTISEMENT (FICTIONAL)\nEmployer: Kech Community Learning Center, Turbat\nPosition: Junior Office & Events Assistant\nResponsibilities: answer email inquiries, help organize student workshops, keep Google Sheets records, create simple announcements, and communicate with event participants.\nRequired skills: Google Docs, spreadsheets, clear English writing, teamwork, basic design and organization.\n\nCANDIDATE (FICTIONAL)\nName: Amina Baloch\nLocation: Turbat, Balochistan, Pakistan\nEmail: amina.demo@example.com\nPhone: [ADD PHONE]\nEducation: BS Computer Science student, University of Turbat (2024–2028, demo dates)\nSkills: Google Docs, Google Sheets, Canva, MS PowerPoint, professional email writing, teamwork, English and Urdu communication\nProject 1: Designed three sample university workshop posters using Canva.\nProject 2: Created a Google Sheets attendance tracker for a class project.\nVolunteer work: Helped a student group register 40 participants for a fictional campus learning event.\nCareer goal: Entry-level office or events assistant.\n\nINSTRUCTIONS\n1. Write a professional summary suited to this specific job.\n2. Add sections: Contact, Summary, Education, Relevant Skills, Projects, Volunteering.\n3. Use clean ATS-friendly headings and concise bullet points.\n4. Use ONLY the facts supplied. Do not invent awards, certificates, employment or performance numbers.\n5. Leave [ADD PHONE] as written; do not guess personal details.\n6. Return the finished resume directly, ready to copy into Word.\n7. After the resume, explain in 2 sentences why it matches the job.",
+    "challenge": "Copy the entire example into Claude. You don't need to type your own job information. This is fictional practice; replace details before using a real resume.",
     "visual": [
-      "JOB AD",
-      "REAL FACTS",
-      "TAILORED RESUME"
+      "FICTIONAL JOB",
+      "COMPLETE DEMO DATA",
+      "GENERATE RESUME",
+      "VERIFY FACTS"
     ],
     "link": "",
-    "note": "Explain turn a job advertisement into a resume using a practical University of Turbat or everyday-life example. Invite the audience to take part: Use your own truthful information. Review every claim."
+    "note": "Tell the audience all names and achievements here are fictional examples. Click copy once and paste into Claude; show the finished one-page resume. Explain why honest facts and job-specific phrasing matter."
   },
   {
     "section": "CLAUDE ARTIFACTS",
@@ -909,10 +927,10 @@ window.BOOTCAMP_SLIDES = [
     "title": "AI and your future career",
     "lead": "Learn to work with AI. Keep developing human skills.",
     "points": [
-      "Some repetitive work may become faster or automated.",
-      "Communication, critical thinking and subject knowledge still matter.",
-      "Practice checking AI output and building small real projects.",
-      "Nobody knows precisely how every job will change."
+      "AI may change how some tasks are completed.",
+      "People who can use, question and check AI have useful skills.",
+      "Career growth can start with small real projects and communication.",
+      "Build practical skills without trusting job predictions blindly."
     ],
     "prompt": "Act as a career mentor for students in Pakistan. Suggest 5 practical skills students should develop to work well with AI. Explain each skill with an easy student example. Avoid uncertain job predictions stated as facts.",
     "challenge": "Which ONE skill will you start improving this month?",
