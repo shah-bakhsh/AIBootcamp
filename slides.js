@@ -21,26 +21,6 @@ window.BOOTCAMP_SLIDES = [
     "layout": "hero"
   },
   {
-    "section": "SPEAKER",
-    "title": "Meet your speaker",
-    "lead": "Shah Bakhsh — AI & Automation Builder",
-    "points": [
-      "Computer Science student at the University of Turbat",
-      "Interested in AI engineering, LLMs, intelligent agents and practical automation",
-      "Helping students explore tools they can use for learning, creativity and their careers"
-    ],
-    "prompt": "",
-    "challenge": "The focus today is what you can create with AI, even if you are completely new.",
-    "visual": [
-      "Computer Science",
-      "AI & Automation",
-      "Student Learning"
-    ],
-    "link": "",
-    "note": "Introduce yourself naturally. I'm Shah Bakhsh, a Computer Science student at the University of Turbat. I enjoy exploring AI and automation, and my aim is to help everyone here try useful AI tools themselves.",
-    "layout": "speaker"
-  },
-  {
     "section": "THE MISSION",
     "title": "Today, you become a creator.",
     "lead": "Not just a user of AI.",
