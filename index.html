@@ -2,47 +2,23 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#060c19">
-<meta name="description" content="50 interactive AI Bootcamp slides for the University of Turbat: prompt engineering, context, RAG, Claude, NotebookLM, Gamma, Flow, Suno, Zapier and the future of AI.">
-<meta property="og:title" content="AI Bootcamp 2026 · Shah Bakhsh · University of Turbat">
-<meta property="og:description" content="Learn • Try • Build • Share. Copy AI prompts, practice Claude, NotebookLM, Gamma, Flow, Suno and watch a real Zapier workflow.">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0c12">
+<title>AI Bootcamp 2026 · Shah Bakhsh · University of Turbat</title>
+<meta name="description" content="Interactive AI Bootcamp 2026 presentation by Shah Bakhsh at the University of Turbat. Learn prompting, context, RAG, agents, Claude, NotebookLM, Gamma, Flow, Suno, Zapier and the future of AI.">
 <meta property="og:type" content="website">
-<title>AI Bootcamp 2026 · Shah Bakhsh</title>
-<link rel="stylesheet" href="./styles.css">
+<meta property="og:title" content="AI Bootcamp 2026 · Shah Bakhsh">
+<meta property="og:description" content="51 interactive slides — copy live AI prompts, complete mobile challenges, and join the hands-on workshop at the University of Turbat.">
+<meta property="og:url" content="https://ai-bootcamp-shah-bakhsh.vercel.app/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0c12'/%3E%3Ctext x='32' y='45' font-size='38' text-anchor='middle' fill='%23ff510a' font-family='sans-serif' font-weight='bold'%3EAI%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="./reference-theme.css">
 <script defer src="./slides.js"></script>
-<script defer src="./app.js"></script>
+<script defer src="./reference-deck.js"></script>
 </head>
 <body>
-<div class="backdrop" aria-hidden="true"><div class="orb"></div></div>
-<div class="shell">
-  <header class="topbar">
-    <div class="brand"><span class="brandmark">AI</span><span>AI BOOTCAMP <span aria-hidden="true">/</span> UNIVERSITY OF TURBAT</span></div>
-    <div class="topactions">
-      <button type="button" class="ghost textbutton" id="speakerBtn" title="Toggle presenter notes (N)">Presenter notes</button>
-      <button type="button" class="ghost textbutton" id="shareBtn" title="Copy live presentation URL">↗ Share link</button>
-      <button type="button" class="iconbtn" id="fullscreenBtn" aria-label="Full screen" title="Full screen">⛶</button>
-      <button type="button" class="ghost" id="overviewBtn" title="All slides (O)">☷ All slides</button>
-    </div>
-  </header>
-  <main class="viewport">
-    <article id="presentation" class="slide" aria-live="polite">
-      <div class="copy"><div class="kicker">AI BOOTCAMP 2026</div><h1>Learn. Try. Build.</h1><p class="lead">University of Turbat • Interactive AI workshop</p></div>
-    </article>
-  </main>
-  <aside id="note" class="speaker-note" aria-label="Presenter notes"></aside>
-  <div class="progress" role="presentation"><div class="progressbar" id="progressBar"></div></div>
-  <footer class="footer">
-    <span class="counter" id="counter">01 / 50</span>
-    <span class="footnote">Use ← → arrows • O overview • N notes • Swipe on mobile</span>
-    <div class="navcontrols"><button type="button" class="ghost" id="prev">← Previous</button><button type="button" class="ghost primary" id="next">Next →</button></div>
-  </footer>
-</div>
-<section class="modal hidden" id="overviewPanel" role="dialog" aria-modal="true" aria-label="Slide overview">
-  <div class="modalhead"><h2>Jump to a slide</h2><input id="slideSearch" class="search" type="search" placeholder="Search topics..." aria-label="Search slides"><button class="ghost" id="closeOverview" type="button">Close ✕</button></div>
-  <div class="tiles" id="tiles"></div>
-</section>
-<div id="toast" class="toast hidden" role="status"></div>
-<noscript><div style="padding:2rem;background:#0c1c30;color:white">Please enable JavaScript to use this interactive presentation.</div></noscript>
+<div id="deck" role="region" aria-label="AI Bootcamp interactive slides"></div>
+<section class="slide-overview hidden" id="slideOverview" role="dialog" aria-modal="true" aria-label="Presentation slide overview"></section>
+<div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+<noscript><div style="color:white;padding:30px;background:#0a0c12"><h1>AI Bootcamp 2026</h1><p>Please enable JavaScript to view the interactive presentation.</p></div></noscript>
 </body>
 </html>
