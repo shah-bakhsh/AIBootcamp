@@ -2,30 +2,32 @@ window.BOOTCAMP_SLIDES = [
   {
     "section": "START",
     "title": "AI BOOTCAMP 2026",
-    "lead": "Don't just watch AI. Learn it. Try it. Build with it.",
+    "lead": "AI you can actually use — from one smart prompt to your first automation.",
     "points": [
-      "University of Turbat • November 19, 2026",
-      "An interactive, beginner-friendly workshop",
-      "Scan to open these slides on your phone"
+      "University of Turbat · November 19, 2026",
+      "A live, hands-on session by Shah Bakhsh",
+      "Open the slides on your phone to copy and try every prompt"
     ],
     "prompt": "",
     "challenge": "Open the slides on your phone, then follow the live prompts.",
     "visual": [
-      "LEARN",
+      "DISCOVER",
+      "PROMPT",
       "CREATE",
       "AUTOMATE"
     ],
     "link": "",
-    "note": ""
+    "note": "Good morning everyone. I'm Shah Bakhsh. Today you won't just hear definitions—you'll use AI tools on your phones. Scan this code so you can copy each example.",
+    "layout": "hero"
   },
   {
     "section": "SPEAKER",
     "title": "Meet your speaker",
-    "lead": "Shah Bakhsh",
+    "lead": "Shah Bakhsh · Computer Science student & AI builder",
     "points": [
-      "Computer Science student at the University of Turbat",
-      "Interested in Agentic AI, NLP, language technology and automation",
-      "Built Balochi NLP research projects including BalBERT and BalPOS"
+      "University of Turbat · interested in AI Engineering, NLP and agentic AI",
+      "Built BalBERT and BalPOS research projects for Balochi-language NLP",
+      "Exploring AI solutions for education, automation and communities"
     ],
     "prompt": "",
     "challenge": "Let's make AI useful for every student—not just computer science students.",
@@ -35,78 +37,83 @@ window.BOOTCAMP_SLIDES = [
       "Balochi-first AI research"
     ],
     "link": "",
-    "note": ""
+    "note": "Introduce yourself naturally: your connection to University of Turbat, your Balochi NLP work, and why you want practical AI skills to reach more students.",
+    "layout": "speaker"
   },
   {
     "section": "YOUR JOURNEY",
     "title": "What you'll learn today",
-    "lead": "From one clear instruction to a real-world automated workflow.",
+    "lead": "From one good instruction to a real-world automated workflow.",
     "points": [
-      "Learn: prompts, context, RAG and AI agents",
-      "Create: Claude, NotebookLM, Gamma, Flow and Suno",
-      "Connect: Google Forms, Sheets, Zapier and Gmail"
+      "THINK: Prompt Engineering, Context Engineering, RAG and Agents",
+      "CREATE: Claude, NotebookLM, Gamma, Google Flow and Suno",
+      "CONNECT: Google Forms, Sheets, Zapier and Gmail",
+      "LOOK AHEAD: Future of AI and opportunities for Balochistan"
     ],
     "prompt": "",
     "challenge": "Keep your phone ready: every live tool includes a student challenge.",
     "visual": [
-      "PROMPT",
-      "CONTEXT",
+      "THINK",
       "CREATE",
-      "AUTOMATE"
+      "CONNECT",
+      "FUTURE"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain what you'll learn today using a practical University of Turbat or everyday-life example. Invite the audience to take part: Keep your phone ready: every live tool includes a student challenge."
   },
   {
     "section": "HOW TO PARTICIPATE",
     "title": "Your phone is your AI laboratory",
-    "lead": "You don't need to know coding to join.",
+    "lead": "No coding needed. Bring your curiosity.",
     "points": [
-      "Watch a 2-minute demonstration",
-      "Tap Copy on the example prompt and try it",
-      "Change at least one detail and compare the result"
+      "WATCH the demonstration on the screen.",
+      "COPY the prompt and run it yourself.",
+      "CHANGE one detail to make the answer your own.",
+      "SHARE one discovery with the person beside you."
     ],
     "prompt": "",
     "challenge": "If you do not have access to a paid tool, work in pairs and follow the demonstration.",
     "visual": [
-      "1. WATCH",
-      "2. COPY",
-      "3. CHANGE",
-      "4. SHARE"
+      "WATCH",
+      "COPY",
+      "CHANGE",
+      "SHARE"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain your phone is your ai laboratory using a practical University of Turbat or everyday-life example. Invite the audience to take part: If you do not have access to a paid tool, work in pairs and follow the demonstration."
   },
   {
     "section": "PROMPT ENGINEERING",
     "title": "What is a prompt?",
-    "lead": "A prompt is the question, instruction, or information you give an AI system.",
+    "lead": "A prompt is a message telling an AI tool what you want.",
     "points": [
-      "Prompt engineering means designing and improving instructions to guide AI toward useful results.",
-      "Clear instructions help, but they cannot guarantee correct answers."
+      "It might be a question, request, or a detailed instruction.",
+      "Prompt engineering means improving that message so the result is more useful.",
+      "A longer instruction isn't always better. A clear one is."
     ],
-    "prompt": "Explain photosynthesis.",
-    "challenge": "Tell the person next to you: what important detail is missing from this prompt?",
+    "prompt": "Write a welcome message for university students.",
+    "challenge": "Run it. What information is missing to make this message fit our AI Bootcamp in Turbat?",
     "visual": [
-      "ASK",
-      "EXPLAIN",
-      "IMPROVE"
+      "YOUR IDEA",
+      "YOUR INSTRUCTION",
+      "AI OUTPUT"
     ],
     "link": "",
-    "note": ""
+    "note": "Start by asking the audience to try a weak request. Ask whether the reply sounds relevant to the exact event."
   },
   {
     "section": "PROMPT ENGINEERING",
     "title": "The simple prompt formula",
-    "lead": "Role + Task + Context + Constraints + Output",
+    "lead": "ROLE + TASK + CONTEXT + STYLE + OUTPUT",
     "points": [
-      "ROLE: who should AI act as?",
-      "TASK: what should it do?",
-      "CONTEXT: who is the result for?",
-      "OUTPUT: what should the answer look like?"
+      "ROLE: who is AI helping you as?",
+      "TASK: what should it create?",
+      "CONTEXT: who is the audience and where?",
+      "STYLE: what tone and how long?",
+      "OUTPUT: paragraph, checklist, or message?"
     ],
-    "prompt": "Act as a friendly science teacher. Explain photosynthesis to a grade 6 student using simple English, one everyday analogy, and 3 bullet points.",
-    "challenge": "Try changing grade 6 to university level. How does the explanation change?",
+    "prompt": "Act as a friendly event host. Write a warm 70-word welcome message for school and university students attending an AI Bootcamp at the University of Turbat. Use simple English, an inspiring tone, and end with one memorable sentence.",
+    "challenge": "Change the audience to teachers. Notice which words change.",
     "visual": [
       "ROLE",
       "TASK",
@@ -114,81 +121,85 @@ window.BOOTCAMP_SLIDES = [
       "FORMAT"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain the simple prompt formula using a practical University of Turbat or everyday-life example. Invite the audience to take part: Change the audience to teachers. Notice which words change."
   },
   {
     "section": "LIVE COMPARISON",
     "title": "Weak prompt vs. strong prompt",
-    "lead": "One small change in instructions can change the usefulness of the result.",
+    "lead": "Better instructions make the output easier to use.",
     "points": [
-      "Weak: 'Help me study.'",
-      "Stronger: identify the subject, time available and learning level.",
-      "Run both examples and compare them on the projector."
+      "WEAK: 'Write about AI.'",
+      "STRONG: specify audience, purpose, length, tone and local example.",
+      "Run both; compare which one you would actually read aloud."
     ],
-    "prompt": "I have a biology exam tomorrow. I am in grade 10 and have 60 minutes to study. Make a 4-part study plan using simple words, and finish with 5 practice questions.",
-    "challenge": "Challenge: make this prompt fit your own subject without sharing personal details.",
+    "prompt": "Write a simple 100-word speech for a student presenting at the University of Turbat. Explain how AI can help young people in Balochistan learn, create and solve local problems. Include one realistic example and a hopeful closing.",
+    "challenge": "Replace 'speech' with 'WhatsApp invitation' and compare.",
     "visual": [
-      "WEAK: Help me study.",
-      "STRONG: Goal + time + level + output"
+      "WEAK REQUEST",
+      "CLEAR GOAL",
+      "LOCAL CONTEXT",
+      "USABLE OUTPUT"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain weak prompt vs. strong prompt using a practical University of Turbat or everyday-life example. Invite the audience to take part: Replace 'speech' with 'WhatsApp invitation' and compare."
   },
   {
     "section": "ZERO-SHOT",
     "title": "Zero-shot prompting",
-    "lead": "Ask AI to do a task without showing any worked examples.",
+    "lead": "Give a task without showing examples.",
     "points": [
-      "Best for familiar tasks and simple instructions.",
-      "Give the task and desired output format.",
-      "Compare the answer with the next two techniques."
+      "Zero-shot means zero demonstrations.",
+      "The model uses the instruction and your new input.",
+      "Useful for familiar tasks with clear categories."
     ],
-    "prompt": "Classify this student feedback as Positive, Neutral, or Negative. Reply with only one label: 'The explanation was easy to follow and helpful.'",
-    "challenge": "Try a different feedback sentence. Give NO example first.",
+    "prompt": "Classify this university WhatsApp message as Formal or Informal. Reply with only one word.\n\nMessage: 'Hey friends, are you all joining the AI workshop tomorrow?'",
+    "challenge": "Change the message to a formal notice. Still give NO examples.",
     "visual": [
-      "INSTRUCTION",
-      "NEW INPUT",
-      "OUTPUT"
+      "ZERO EXAMPLES",
+      "NEW MESSAGE",
+      "ONE LABEL"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain zero-shot prompting using a practical University of Turbat or everyday-life example. Invite the audience to take part: Change the message to a formal notice. Still give NO examples."
   },
   {
     "section": "ONE-SHOT",
     "title": "One-shot prompting",
-    "lead": "Give ONE example, then ask AI to follow the pattern.",
+    "lead": "One example teaches the desired pattern.",
     "points": [
-      "The sample shows AI what a finished answer should look like.",
-      "It is useful when the format matters."
+      "Show exactly one example of input and output.",
+      "Then give a new input to classify.",
+      "It can make an answer format easier to follow."
     ],
-    "prompt": "Classify student feedback.\nExample: 'I loved the practical activity.' → Positive\nNow classify: 'The explanation was confusing.' →",
-    "challenge": "Replace the sample and test whether AI still follows the format.",
+    "prompt": "Label the tone of each message.\nExample: 'Dear students, the session begins at 9:00 AM.' → Formal\n\nNow classify: 'Hey everyone, see you at the AI event!'\n\nReply with one label.",
+    "challenge": "Compare its reply with the zero-shot version.",
     "visual": [
-      "1 EXAMPLE",
-      "NEW INPUT",
-      "OUTPUT"
+      "ONE EXAMPLE",
+      "NEW MESSAGE",
+      "LABEL"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain one-shot prompting using a practical University of Turbat or everyday-life example. Invite the audience to take part: Compare its reply with the zero-shot version."
   },
   {
     "section": "FEW-SHOT",
     "title": "Few-shot prompting",
-    "lead": "Show two or more examples to teach the expected pattern.",
+    "lead": "Multiple examples teach a consistent pattern.",
     "points": [
-      "Examples can clarify categories, tone and structure.",
-      "Keep examples accurate and representative."
+      "Provide two or more short examples.",
+      "Use examples that are accurate and easy to distinguish.",
+      "Then ask for a new answer in the same format."
     ],
-    "prompt": "Classify feedback as Positive, Neutral, or Negative.\n'I learned a lot.' → Positive\n'The session was okay.' → Neutral\n'I could not understand the lesson.' → Negative\nNow classify: 'The practical demo was excellent.' →",
-    "challenge": "Change the final sentence and compare the three prompting techniques.",
+    "prompt": "Classify each message as Formal or Informal.\n'Dear participants, kindly take your seats.' → Formal\n'Hi everyone, let's get started!' → Informal\n'Please submit the form by 5 PM.' → Formal\n'Hey, who's joining us today?' → Informal\n\nNow classify: 'Students are requested to attend the workshop.'\nReply with one label.",
+    "challenge": "Make a new student notice. Check if the classification makes sense.",
     "visual": [
-      "EXAMPLE 1",
-      "EXAMPLE 2",
-      "EXAMPLE 3",
-      "NEW INPUT"
+      "SAMPLE 1",
+      "SAMPLE 2",
+      "SAMPLE 3",
+      "NEW MESSAGE"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain few-shot prompting using a practical University of Turbat or everyday-life example. Invite the audience to take part: Make a new student notice. Check if the classification makes sense."
   },
   {
     "section": "PROMPT TECHNIQUES",
@@ -200,8 +211,8 @@ window.BOOTCAMP_SLIDES = [
       "MULTIMODAL: provide a picture or voice input where supported.",
       "CHAINING: split one complex goal into smaller steps."
     ],
-    "prompt": "Act as a patient tutor. Ask me what I already know about a topic, then explain it in three easy steps, give a real-life example, and end with two quiz questions.",
-    "challenge": "Choose two techniques and include them in one prompt.",
+    "prompt": "Act as a friendly university communication coach. Draft a 4-line WhatsApp invitation for an AI workshop in Turbat. Keep it welcoming and simple, add placeholders [DATE], [TIME] and [VENUE], and finish with a clear call to action.",
+    "challenge": "Change the required output to a formal email, keeping the same audience.",
     "visual": [
       "ROLE",
       "FORMAT",
@@ -209,7 +220,7 @@ window.BOOTCAMP_SLIDES = [
       "MULTIMODAL"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain more than zero-shot using a practical University of Turbat or everyday-life example. Invite the audience to take part: Change the required output to a formal email, keeping the same audience."
   },
   {
     "section": "PROMPT CHAINING",
@@ -221,15 +232,15 @@ window.BOOTCAMP_SLIDES = [
       "Step 3: review the draft for clarity and errors.",
       "For reasoning tasks, request a short justification and verifiable checks—not hidden internal reasoning."
     ],
-    "prompt": "Help me prepare a 2-minute talk about water conservation. First ask my target audience. Then propose an outline. Wait for my approval before writing the final speech.",
-    "challenge": "Try this sequence: plan → draft → improve. Which step helps most?",
+    "prompt": "Help me organize a one-hour AI awareness session for college students in Turbat. First ask 3 essential questions. Next propose a schedule. Wait for my approval. Then write the opening speech and an invitation.",
+    "challenge": "Which step should wait for your approval?",
     "visual": [
       "PLAN",
       "DRAFT",
       "REVIEW"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain solve a big task in small steps using a practical University of Turbat or everyday-life example. Invite the audience to take part: Which step should wait for your approval?"
   },
   {
     "section": "CHALLENGE 01",
@@ -240,8 +251,8 @@ window.BOOTCAMP_SLIDES = [
       "Rewrite it using role, task, audience and output format.",
       "Run the original and improved prompts; compare both results."
     ],
-    "prompt": "Act as a school career counselor. Write a 150-word encouraging talk for college students about preparing for their future. Use simple English, 3 practical suggestions, and a memorable closing line.",
-    "challenge": "Share the most useful improvement you discovered.",
+    "prompt": "Act as a student event organizer at the University of Turbat. Write an exciting WhatsApp invitation for a free AI learning session for students in Balochistan. Use simple English, under 70 words, with [DATE], [TIME] and [VENUE] placeholders and a call to action.",
+    "challenge": "4 minutes: adapt it for your own school or college.",
     "visual": [
       "4 MIN",
       "COPY",
@@ -249,27 +260,26 @@ window.BOOTCAMP_SLIDES = [
       "COMPARE"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain prompt makeover battle using a practical University of Turbat or everyday-life example. Invite the audience to take part: 4 minutes: adapt it for your own school or college."
   },
   {
     "section": "CONTEXT ENGINEERING",
     "title": "What comes after better prompts?",
-    "lead": "Context engineering means supplying and managing the right information for the task.",
+    "lead": "Prompt = the request. Context = the relevant information behind it.",
     "points": [
-      "PROMPT: 'What do I want you to do?'",
-      "CONTEXT: 'What relevant information should you know?'",
-      "Context can include documents, goals, constraints, preferences and tool results.",
-      "More context is not always better—relevance matters."
+      "Your instruction explains the job.",
+      "Your context provides background, documents and constraints.",
+      "Only include relevant information, not private data."
     ],
-    "prompt": "Make a study plan for me.",
-    "challenge": "What context should you add before expecting a personalized study plan?",
+    "prompt": "Make a study plan for my upcoming university exam.",
+    "challenge": "What three details are missing before this can be a useful plan?",
     "visual": [
-      "INSTRUCTION",
-      "RELEVANT DATA",
-      "BETTER RESPONSE"
+      "PROMPT",
+      "BACKGROUND",
+      "BETTER ANSWER"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain what comes after better prompts? using a practical University of Turbat or everyday-life example. Invite the audience to take part: What three details are missing before this can be a useful plan?"
   },
   {
     "section": "CONTEXT ENGINEERING",
@@ -280,8 +290,8 @@ window.BOOTCAMP_SLIDES = [
       "With context: include subject, level, time and difficulty.",
       "Avoid uploading private records or other people's personal data."
     ],
-    "prompt": "Make a 5-day study plan using this context:\nLevel: 1st-year university\nSubject: English communication\nAvailable time: 40 minutes per day\nChallenge: speaking confidently\nGoal: give a 2-minute talk on Friday\nOutput: a table with daily actions.",
-    "challenge": "Replace the details with your own non-sensitive learning goal.",
+    "prompt": "I am a first-year student at the University of Turbat. I have an English communication exam in 5 days. I can study 45 minutes each day and my biggest difficulty is speaking confidently. Make a day-by-day study plan in a table with one speaking exercise and one self-check question each day.",
+    "challenge": "Swap in your own subject and available study time.",
     "visual": [
       "GOAL",
       "TIME",
@@ -289,7 +299,7 @@ window.BOOTCAMP_SLIDES = [
       "CONSTRAINTS"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain same instruction. better context. using a practical University of Turbat or everyday-life example. Invite the audience to take part: Swap in your own subject and available study time."
   },
   {
     "section": "CHALLENGE 02",
@@ -300,8 +310,8 @@ window.BOOTCAMP_SLIDES = [
       "Add only the information AI truly needs.",
       "Ask for a plan and check whether it fits your situation."
     ],
-    "prompt": "My topic is [TOPIC]. I already know [WHAT I KNOW]. I have [MINUTES] per day for [DAYS] days. My biggest difficulty is [DIFFICULTY]. Create a realistic daily study plan, a short practice activity, and a simple progress checklist.",
-    "challenge": "Show a friend how adding context changed the answer.",
+    "prompt": "I study [SUBJECT] at [SCHOOL/COLLEGE/UNIVERSITY]. My level is [BEGINNER/INTERMEDIATE]. I can practice [MINUTES] per day for [DAYS] days. My goal is [GOAL] and I struggle with [DIFFICULTY]. Create a realistic daily plan, one practice task and a progress checklist.",
+    "challenge": "Try changing one background detail. Does the plan improve?",
     "visual": [
       "TOPIC",
       "BACKGROUND",
@@ -309,27 +319,28 @@ window.BOOTCAMP_SLIDES = [
       "PLAN"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain build your personal study coach using a practical University of Turbat or everyday-life example. Invite the audience to take part: Try changing one background detail. Does the plan improve?"
   },
   {
     "section": "RAG",
     "title": "What is RAG?",
-    "lead": "Retrieval-Augmented Generation: find relevant information first, then generate an answer using it.",
+    "lead": "Find reliable material first, then ask AI to answer using it.",
     "points": [
-      "RETRIEVE: find the relevant source passages.",
-      "AUGMENT: include those passages as context.",
-      "GENERATE: answer, ideally with references.",
-      "It can reduce unsupported answers, but it does not guarantee truth."
+      "RETRIEVE: find a relevant passage in your notes or document.",
+      "AUGMENT: give that passage to the AI.",
+      "GENERATE: answer with evidence.",
+      "CHECK: citations help, but may still be wrong."
     ],
-    "prompt": "Explain RAG to a 12-year-old using the analogy of finding a book in a library before answering a question. Use only 4 sentences.",
+    "prompt": "Explain RAG to a beginner using this analogy: a University of Turbat student checks a trusted library book before answering a question. Explain retrieve, augment and generate in 3 easy steps.",
     "challenge": "Ask: 'What is the difference between answering from memory and checking a source?'",
     "visual": [
-      "1. RETRIEVE",
-      "2. ADD CONTEXT",
-      "3. ANSWER"
+      "FIND SOURCE",
+      "ADD PASSAGE",
+      "ANSWER",
+      "VERIFY"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain what is rag? using a practical University of Turbat or everyday-life example. Invite the audience to take part: Ask: 'What is the difference between answering from memory and checking a source?'"
   },
   {
     "section": "RAG CHALLENGE",
@@ -340,35 +351,35 @@ window.BOOTCAMP_SLIDES = [
       "Ask one question that the passage CAN answer.",
       "Ask a second question that it CANNOT answer."
     ],
-    "prompt": "Use only the source below. If the information is missing, reply 'Not found in the source'. After the answer, quote the supporting sentence.\n\nSOURCE:\n[PASTE A SHORT EDUCATIONAL PARAGRAPH]\n\nQUESTION:\n[YOUR QUESTION]",
-    "challenge": "Did the AI admit when an answer was missing? Check the source yourself.",
+    "prompt": "Answer ONLY from this demonstration passage. If information is missing, say 'Not found in the passage'. Quote the supporting sentence.\n\nPASSAGE: Students at a fictional campus exhibition presented ideas about education, local businesses and community services.\n\nQUESTION: What three areas were covered?",
+    "challenge": "Now ask 'What was the exhibition budget?' Does AI admit the answer is not given?",
     "visual": [
       "SOURCE",
       "QUESTION",
       "EVIDENCE"
     ],
     "link": "",
-    "note": ""
+    "note": "The passage is fictional. The point is to test source grounding, not make a claim about a real event."
   },
   {
     "section": "AGENTS & AUTOMATION",
     "title": "AI assistant vs. AI agent",
-    "lead": "An agent can pursue a goal, use available tools and take actions within its permissions.",
+    "lead": "An agent can use tools and take permitted steps toward a goal.",
     "points": [
-      "CHAT ASSISTANT: often gives an answer or a draft.",
-      "AGENT: may plan, use a tool, inspect its result and continue.",
-      "HUMANS: should approve important or risky actions."
+      "Assistant: mostly responds with guidance or a draft.",
+      "Agent: may plan, use tools, review results and continue.",
+      "Humans should approve important actions and limits."
     ],
-    "prompt": "Design an AI study assistant that organizes a revision plan. List its goal, information, tools, allowed actions and human approval points. Keep it non-technical.",
-    "challenge": "Name one useful action an agent could take—and one action needing approval.",
+    "prompt": "Design a safe AI agent for a student book stall in Turbat. Its tasks: check stock, prepare low-stock alerts and draft customer messages. List the goal, tools, allowed actions and where the shopkeeper must approve.",
+    "challenge": "Which steps should an AI agent not do automatically?",
     "visual": [
       "GOAL",
       "PLAN",
-      "TOOL",
-      "CHECK"
+      "TOOLS",
+      "HUMAN CHECK"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain ai assistant vs. ai agent using a practical University of Turbat or everyday-life example. Invite the audience to take part: Which steps should an AI agent not do automatically?"
   },
   {
     "section": "AGENTIC AI",
@@ -379,7 +390,7 @@ window.BOOTCAMP_SLIDES = [
       "An AI agent is one possible component in that system.",
       "Agents are not automatically correct or safe."
     ],
-    "prompt": "Explain the 'goal → plan → act → observe → adjust' loop using an AI travel planner as an example. Keep it beginner-friendly and explain where a person must approve bookings.",
+    "prompt": "Explain Goal → Plan → Act → Observe → Adjust with an example of a hypothetical university library assistant checking the availability of a book. Include a human approval step before reservation.",
     "challenge": "Challenge: identify the difference between a plan and an actual completed action.",
     "visual": [
       "GOAL",
@@ -388,7 +399,7 @@ window.BOOTCAMP_SLIDES = [
       "FEEDBACK"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain how an agent works using a practical University of Turbat or everyday-life example. Invite the audience to take part: Challenge: identify the difference between a plan and an actual completed action."
   },
   {
     "section": "AUTOMATION",
@@ -400,7 +411,7 @@ window.BOOTCAMP_SLIDES = [
       "AI can be added for decisions or interpreting information.",
       "Our attendance system is a real automation, not an autonomous AI agent."
     ],
-    "prompt": "Describe a simple automated university attendance process with a trigger, action and result. Do not claim it is an AI agent.",
+    "prompt": "Explain a simple university attendance automation in 4 steps: Google Forms submission → Google Sheets new row → Zapier trigger → Gmail confirmation. Label the trigger and actions. Explain why this is automation, even if no AI model is used.",
     "challenge": "Ask the room: is the form-to-email workflow AI, automation, or both?",
     "visual": [
       "TRIGGER",
@@ -408,26 +419,28 @@ window.BOOTCAMP_SLIDES = [
       "RESULT"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain automation is not the same as ai using a practical University of Turbat or everyday-life example. Invite the audience to take part: Ask the room: is the form-to-email workflow AI, automation, or both?"
   },
   {
     "section": "CLAUDE AI",
     "title": "Meet Claude by Anthropic",
-    "lead": "A general-purpose AI assistant with workspace tools for creating and organizing work.",
+    "lead": "Claude is an AI assistant created by Anthropic.",
     "points": [
-      "Like other AI assistants, Claude helps write, analyze, explain and draft.",
-      "Our focus: Artifacts, Projects, Skills, Connectors and real-world workflows.",
-      "Free access and advanced features depend on plan and region."
+      "Useful for writing, learning, coding and document analysis.",
+      "Artifacts can show interactive tools, quizzes or mini-apps.",
+      "Projects, Skills and Connectors support reusable workflows.",
+      "Features vary by account and region."
     ],
-    "prompt": "",
-    "challenge": "Demo idea: job description → truthful resume; then build an interactive Artifact.",
+    "prompt": "I am a university student in Turbat. Suggest 5 practical and responsible ways I can use Claude this week for studying, career preparation or a community project. Use simple English.",
+    "challenge": "Pick one idea and try it in Claude.",
     "visual": [
-      "CLAUDE",
-      "ARTIFACTS",
-      "PROJECTS"
+      "WRITE",
+      "ANALYZE",
+      "BUILD",
+      "ORGANIZE"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain meet claude by anthropic using a practical University of Turbat or everyday-life example. Invite the audience to take part: Pick one idea and try it in Claude."
   },
   {
     "section": "CLAUDE BASICS",
@@ -439,7 +452,7 @@ window.BOOTCAMP_SLIDES = [
       "Free usage limits are not always just a fixed token count.",
       "Never assume every Claude feature is available on a free account."
     ],
-    "prompt": "Explain tokens and context windows to a student using a simple notebook analogy. Give a 3-sentence explanation.",
+    "prompt": "Explain tokens and the context window to a first-year student using a notebook with limited pages as an analogy. Use 4 easy sentences and one example.",
     "challenge": "Can a long conversation or many files fill the context window? Discuss.",
     "visual": [
       "INPUT TOKENS",
@@ -447,7 +460,7 @@ window.BOOTCAMP_SLIDES = [
       "CONTEXT WINDOW"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain tokens and context windows using a practical University of Turbat or everyday-life example. Invite the audience to take part: Can a long conversation or many files fill the context window? Discuss."
   },
   {
     "section": "CLAUDE LIVE DEMO",
@@ -459,15 +472,15 @@ window.BOOTCAMP_SLIDES = [
       "Ask Claude to tailor the wording without inventing facts.",
       "Review before submitting to an employer."
     ],
-    "prompt": "Act as a professional resume editor. Compare the job description and candidate facts below. Draft a clear one-page, ATS-friendly resume using ONLY the candidate facts. Highlight relevant skills honestly. Do not invent qualifications, employment or achievements. If details are missing, write [NEEDS INPUT]. Then suggest 3 skills to develop.\n\nJOB DESCRIPTION:\n[PASTE JOB AD]\n\nCANDIDATE FACTS:\n[EDUCATION, SKILLS, REAL PROJECTS]",
-    "challenge": "Audience task: choose a job you want, provide your real qualifications, and create an honest first draft.",
+    "prompt": "Act as a career mentor. Create an ATS-friendly one-page resume for an entry-level job using ONLY my real details. First ask for my education, skills, projects and the job description. Never invent achievements, grades, job experience or certificates. Mark missing details [NEEDS INPUT]. Then draft my resume.",
+    "challenge": "Use your own truthful information. Review every claim.",
     "visual": [
       "JOB AD",
       "REAL FACTS",
       "TAILORED RESUME"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain turn a job advertisement into a resume using a practical University of Turbat or everyday-life example. Invite the audience to take part: Use your own truthful information. Review every claim."
   },
   {
     "section": "CLAUDE ARTIFACTS",
@@ -478,15 +491,15 @@ window.BOOTCAMP_SLIDES = [
       "You can request an app in plain English; coding knowledge is optional.",
       "Check the generated tool carefully before relying on it."
     ],
-    "prompt": "Create an interactive flashcard quiz as a Claude Artifact for school students. Include 6 Pakistan general-knowledge questions, large mobile-friendly buttons, a score counter, a Next button and Restart button. Make it friendly and easy to use.",
-    "challenge": "Challenge: replace 'general knowledge' with your own school subject and try it.",
+    "prompt": "Create an interactive quiz as a Claude Artifact for students in Balochistan. Include 6 general-knowledge questions about Pakistan and everyday technology, large mobile-friendly answer buttons, score, Next button, short explanations and Restart.",
+    "challenge": "Change the quiz topic to your own course or Balochi vocabulary.",
     "visual": [
       "IDEA",
       "ARTIFACT",
       "TRY"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain artifacts: from answer to interactive tool using a practical University of Turbat or everyday-life example. Invite the audience to take part: Change the quiz topic to your own course or Balochi vocabulary."
   },
   {
     "section": "CLAUDE WORKSPACE",
@@ -498,7 +511,7 @@ window.BOOTCAMP_SLIDES = [
       "CONNECTORS: authorized access to supported external services.",
       "Availability and access depend on your account."
     ],
-    "prompt": "Explain to a school teacher how Claude Projects, Skills and Connectors differ. Give one realistic classroom use for each, using simple words.",
+    "prompt": "Explain Claude Projects, Skills and Connectors using three student examples: organize course notes, reuse a study procedure and access an authorized file. Use a 3-row comparison table.",
     "challenge": "Which would you choose to reuse instructions? Which to access an approved file?",
     "visual": [
       "PROJECTS",
@@ -506,7 +519,7 @@ window.BOOTCAMP_SLIDES = [
       "CONNECTORS"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain projects, skills and connectors using a practical University of Turbat or everyday-life example. Invite the audience to take part: Which would you choose to reuse instructions? Which to access an approved file?"
   },
   {
     "section": "CLAUDE WORK MODES",
@@ -526,7 +539,7 @@ window.BOOTCAMP_SLIDES = [
       "CODE"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain claude, cowork and claude code using a practical University of Turbat or everyday-life example. Invite the audience to take part: Match the task: write a resume, organize many files, fix a software bug."
   },
   {
     "section": "CLAUDE CHALLENGE",
@@ -538,15 +551,15 @@ window.BOOTCAMP_SLIDES = [
       "Organizer: design a Project with instructions for studying.",
       "Show your result to a partner."
     ],
-    "prompt": "I am a university student. Help me choose the best of these three tasks for Claude: create an honest resume, build a simple interactive quiz, or organize my study materials in a Project. Ask one question before advising me.",
-    "challenge": "Make one improvement after your first output.",
+    "prompt": "Act as my career coach. I study Computer Science at the University of Turbat and want to prepare for an internship. Ask me 5 simple questions about real skills and projects, then draft a truthful LinkedIn bio. Don't invent anything.",
+    "challenge": "Choose one: career bio, interactive quiz Artifact, or organized study Project.",
     "visual": [
       "CAREER",
       "ARTIFACT",
       "PROJECT"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain choose your claude mission using a practical University of Turbat or everyday-life example. Invite the audience to take part: Choose one: career bio, interactive quiz Artifact, or organized study Project."
   },
   {
     "section": "NOTEBOOKLM",
@@ -566,7 +579,7 @@ window.BOOTCAMP_SLIDES = [
       "CITATIONS"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain google notebooklm: your study companion using a practical University of Turbat or everyday-life example. Invite the audience to take part: Live demo: upload one short, shareable course PDF and turn it into learning materials."
   },
   {
     "section": "NOTEBOOKLM DEMO",
@@ -578,7 +591,7 @@ window.BOOTCAMP_SLIDES = [
       "3. Generate a quiz or flashcards.",
       "4. Show a mind map or Audio Overview if available."
     ],
-    "prompt": "Using only the sources in this notebook, explain the three most important ideas in simple English. Then write five multiple-choice questions with answers and cite the relevant source for each.",
+    "prompt": "Using ONLY the sources uploaded to my NotebookLM notebook, create a 5-point beginner summary and 5 multiple-choice questions with answers. Cite the exact supporting source for each question. Mark any information missing from the uploaded materials.",
     "challenge": "Compare one AI-generated question with the original PDF. Is it accurate?",
     "visual": [
       "SOURCE",
@@ -587,7 +600,7 @@ window.BOOTCAMP_SLIDES = [
       "AUDIO"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain one pdf. many ways to learn. using a practical University of Turbat or everyday-life example. Invite the audience to take part: Compare one AI-generated question with the original PDF. Is it accurate?"
   },
   {
     "section": "NOTEBOOKLM CHALLENGE",
@@ -599,7 +612,7 @@ window.BOOTCAMP_SLIDES = [
       "Find one answer and inspect its citation.",
       "Optional: generate an Audio Overview or mind map."
     ],
-    "prompt": "From the uploaded material, create a beginner revision guide with 5 main points, 5 quiz questions and answers. Cite the supporting source material. If something is not in my sources, say so.",
+    "prompt": "Using only my uploaded notes, make a friendly revision guide with 6 key ideas, 5 flashcards and 3 practice questions. Cite a relevant source for every claim. Don't add facts that aren't in my sources.",
     "challenge": "Share the most useful question with the group.",
     "visual": [
       "UPLOAD",
@@ -607,7 +620,7 @@ window.BOOTCAMP_SLIDES = [
       "VERIFY"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain turn your notes into a mini-course using a practical University of Turbat or everyday-life example. Invite the audience to take part: Share the most useful question with the group."
   },
   {
     "section": "GAMMA",
@@ -628,7 +641,7 @@ window.BOOTCAMP_SLIDES = [
       "SHARE"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain gamma: presentation from an idea using a practical University of Turbat or everyday-life example. Invite the audience to take part: Important: treat AI-generated slides as a draft—check facts and edit before presenting."
   },
   {
     "section": "GAMMA LIVE DEMO",
@@ -640,7 +653,7 @@ window.BOOTCAMP_SLIDES = [
       "Select a readable theme.",
       "Manually improve at least one slide before sharing."
     ],
-    "prompt": "Create a 6-slide beginner-friendly presentation titled 'Plastic-Free Campus'. Audience: school and university students. Use simple English, one idea per slide, real-world actions, minimal text, and a motivating conclusion. Do not invent statistics.",
+    "prompt": "Create a 6-slide presentation for an AI awareness event at the University of Turbat. Audience: first-time AI users from schools and colleges. Topic: 5 realistic ways students in Balochistan can use AI responsibly. Use short headings, one example per slide and a motivating conclusion. Don't invent statistics.",
     "challenge": "Challenge: ask for a clearer title and replace one generic slide with a local example.",
     "visual": [
       "TOPIC",
@@ -649,7 +662,7 @@ window.BOOTCAMP_SLIDES = [
       "EDIT"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain create a beautiful presentation in minutes using a practical University of Turbat or everyday-life example. Invite the audience to take part: Challenge: ask for a clearer title and replace one generic slide with a local example."
   },
   {
     "section": "GAMMA CHALLENGE",
@@ -661,7 +674,7 @@ window.BOOTCAMP_SLIDES = [
       "Change the theme and edit one slide manually.",
       "Show your favorite slide to a friend."
     ],
-    "prompt": "Create 5 presentation cards on [YOUR TOPIC] for [AUDIENCE]. Keep one clear idea per card. Use simple explanations and relevant visuals. Finish with 3 actions people can take. Avoid made-up facts.",
+    "prompt": "Create exactly 5 presentation cards on [YOUR TOPIC] for students in [YOUR TOWN]. Include an engaging opening, 3 useful lessons and a clear conclusion. Use easy English, little text and relevant visuals. No invented facts.",
     "challenge": "Bonus: explain why you chose the theme.",
     "visual": [
       "GENERATE",
@@ -669,7 +682,7 @@ window.BOOTCAMP_SLIDES = [
       "PRESENT"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain 5-slide sprint using a practical University of Turbat or everyday-life example. Invite the audience to take part: Bonus: explain why you chose the theme."
   },
   {
     "section": "GOOGLE FLOW",
@@ -689,7 +702,7 @@ window.BOOTCAMP_SLIDES = [
       "MOOD"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain google flow: ai video filmmaking using a practical University of Turbat or everyday-life example. Invite the audience to take part: Watch the prompt ingredients before we create a video together."
   },
   {
     "section": "FLOW LIVE DEMO",
@@ -701,8 +714,8 @@ window.BOOTCAMP_SLIDES = [
       "Camera: slow cinematic movement.",
       "Atmosphere: hopeful sunrise."
     ],
-    "prompt": "Create an 8-second cinematic video of a fictional student standing on a peaceful hill overlooking a landscape inspired by Balochistan at sunrise. A soft breeze moves their scarf; slow forward camera movement; warm golden sunlight; realistic natural scenery; hopeful mood. No text, logos, identifiable real people or existing copyrighted characters.",
-    "challenge": "Ask the audience to change ONE camera movement, time of day or setting.",
+    "prompt": "Create an original cinematic 8-second shot of a fictional student walking through a sunlit university courtyard in Turbat, Balochistan. Warm morning light, notebook in hand, gentle breeze, slow smooth camera tracking and a hopeful atmosphere. Realistic natural movement; no logos, subtitles or identifiable real people.",
+    "challenge": "Change the time of day or camera movement and compare.",
     "visual": [
       "SCENE",
       "CAMERA",
@@ -710,7 +723,7 @@ window.BOOTCAMP_SLIDES = [
       "STYLE"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain let's direct a scene in balochistan using a practical University of Turbat or everyday-life example. Invite the audience to take part: Change the time of day or camera movement and compare."
   },
   {
     "section": "FLOW CHALLENGE",
@@ -721,7 +734,7 @@ window.BOOTCAMP_SLIDES = [
       "Include subject, action, setting, camera and mood.",
       "Try generating if your account permits; otherwise make a complete prompt."
     ],
-    "prompt": "Create a short cinematic video showing [SUBJECT] doing [ACTION] in [SETTING]. Camera: [CAMERA MOVEMENT]. Lighting: [TIME OF DAY]. Mood: [MOOD]. Keep it original, realistic and without text or logos.",
+    "prompt": "Generate an original 8-second video of [FICTIONAL SUBJECT] doing [ACTION] in [SETTING IN BALOCHISTAN]. Camera: [ANGLE/MOVEMENT]. Lighting: [TIME OF DAY]. Mood: [MOOD]. Keep it cinematic, no text, no logos.",
     "challenge": "Share how changing camera or lighting affects the scene.",
     "visual": [
       "WRITE",
@@ -729,7 +742,7 @@ window.BOOTCAMP_SLIDES = [
       "GENERATE"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain become a film director using a practical University of Turbat or everyday-life example. Invite the audience to take part: Share how changing camera or lighting affects the scene."
   },
   {
     "section": "SUNO AI",
@@ -749,7 +762,7 @@ window.BOOTCAMP_SLIDES = [
       "MUSIC"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain suno: turn an idea into music using a practical University of Turbat or everyday-life example. Invite the audience to take part: A Balochi song can be attempted, but pronunciation may be unreliable."
   },
   {
     "section": "SUNO LIVE DEMO",
@@ -761,15 +774,15 @@ window.BOOTCAMP_SLIDES = [
       "Generate an original short university anthem.",
       "Listen and discuss what AI did well or badly."
     ],
-    "prompt": "An uplifting original university AI bootcamp anthem about education, creativity and the future of Balochistan. Warm folk-pop influence, benju-inspired melody, gentle dohol-style percussion, joyful chorus, hopeful and respectful mood. Use original lyrics; no imitation of existing singers or songs.",
-    "challenge": "If you choose Balochi lyrics, use a short verse verified by a fluent speaker.",
+    "prompt": "Create an original uplifting short song about students in Balochistan using technology to learn and create opportunities. Warm folk-pop feel, benju-inspired melody and gentle dohol-style percussion, bright chorus, medium tempo, hopeful mood, original English lyrics. Don't imitate any existing artist or copyrighted melody.",
+    "challenge": "Let the audience vote on mood, then try another version.",
     "visual": [
       "AUDIENCE VOTE",
       "STYLE",
       "GENERATE"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain create an ai bootcamp anthem using a practical University of Turbat or everyday-life example. Invite the audience to take part: Let the audience vote on mood, then try another version."
   },
   {
     "section": "SUNO CHALLENGE",
@@ -780,7 +793,7 @@ window.BOOTCAMP_SLIDES = [
       "Specify mood, instruments and vocals or instrumental.",
       "Generate only if free credits are available."
     ],
-    "prompt": "Create an original instrumental music piece for [EVENT]. Mood: [MOOD]. Instruments: [INSTRUMENTS]. Energy: [CALM/MEDIUM/HIGH]. No vocals and no imitation of copyrighted melodies.",
+    "prompt": "Create an original 15-second instrumental for a student technology workshop in Turbat. Mood: hopeful and welcoming. Instruments: warm synths, gentle percussion and subtle Balochi folk-inspired textures. Medium tempo, no vocals, no existing melody.",
     "challenge": "Compare two descriptions and notice how the music changes.",
     "visual": [
       "PURPOSE",
@@ -788,7 +801,7 @@ window.BOOTCAMP_SLIDES = [
       "INSTRUMENTS"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain make your own soundtrack using a practical University of Turbat or everyday-life example. Invite the audience to take part: Compare two descriptions and notice how the music changes."
   },
   {
     "section": "ZAPIER",
@@ -808,34 +821,34 @@ window.BOOTCAMP_SLIDES = [
       "RESULT"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain zapier: when apps work together using a practical University of Turbat or everyday-life example. Invite the audience to take part: Watch our real bootcamp attendance automation."
   },
   {
     "section": "ZAPIER LIVE DEMO",
     "title": "A real automation, already tested",
-    "lead": "Google Form → Google Sheets → Zapier → Gmail",
+    "lead": "Your attendance workflow: Form → Sheet → Zap → Email.",
     "points": [
-      "1. A student submits the attendance form.",
-      "2. Google Forms writes a new row in Sheets.",
-      "3. Zapier detects the new row.",
-      "4. Gmail sends a confirmation to the student's email.",
-      "Allow time for the Zap to run; delivery is not always instant."
+      "The student submits a Google Form.",
+      "A new response appears in the linked Google Sheet.",
+      "Zapier detects the new row.",
+      "Gmail sends a personalized attendance confirmation.",
+      "Delivery may take a few minutes."
     ],
     "prompt": "",
     "challenge": "The student only needs a phone and the QR code on the next slide.",
     "visual": [
       "FORM",
       "SHEET",
-      "ZAP",
-      "EMAIL"
+      "ZAPIER",
+      "GMAIL"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain a real automation, already tested using a practical University of Turbat or everyday-life example. Invite the audience to take part: The student only needs a phone and the QR code on the next slide."
   },
   {
     "section": "ATTENDANCE",
     "title": "Scan for attendance",
-    "lead": "Submit your details and check your inbox for confirmation.",
+    "lead": "Scan the QR code, submit once, then check your inbox.",
     "points": [
       "University of Turbat • AI Bootcamp 2026",
       "Use your own valid email address.",
@@ -843,14 +856,111 @@ window.BOOTCAMP_SLIDES = [
       "Watch the live automation work."
     ],
     "prompt": "",
-    "challenge": "The QR on this slide opens the actual Google Form, not a private response spreadsheet.",
+    "challenge": "Use your own valid email address. The QR opens our real Google Form.",
     "visual": [
       "SCAN",
       "SUBMIT",
       "CONFIRM"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain scan for attendance using a practical University of Turbat or everyday-life example. Invite the audience to take part: Use your own valid email address. The QR opens our real Google Form."
+  },
+  {
+    "section": "FUTURE OF AI",
+    "title": "What's next for AI?",
+    "lead": "AI is moving from just answers toward more useful real-world work.",
+    "points": [
+      "Voice, text, images and video in a single assistant.",
+      "More tools that can plan steps and act with permission.",
+      "AI inside education, small businesses and everyday apps.",
+      "Better language access is a major opportunity."
+    ],
+    "prompt": "Explain 4 possible ways AI may change student life in Pakistan by 2030. Clearly label predictions as possibilities. Use simple English and include one challenge or risk for each.",
+    "challenge": "Which possibility would be useful in Balochistan?",
+    "visual": [
+      "MULTIMODAL",
+      "AGENTS",
+      "EVERYDAY APPS",
+      "LANGUAGES"
+    ],
+    "note": "These are possibilities, not firm predictions."
+  },
+  {
+    "section": "FUTURE OF AI",
+    "title": "AI opportunities in Balochistan",
+    "lead": "Build for your own language, school, shop or community.",
+    "points": [
+      "Education: more accessible study resources.",
+      "Balochi language: translation, speech and better datasets.",
+      "Business: inventory, online shopping and customer support.",
+      "Community: farming, accessibility and local information."
+    ],
+    "prompt": "Suggest 5 realistic beginner AI project ideas for students in Balochistan. Focus on education, Balochi language, local businesses or accessibility. For each explain the problem, one small prototype and one limitation.",
+    "challenge": "Choose one problem that matters in Turbat or your town.",
+    "visual": [
+      "EDUCATION",
+      "BALOCHI",
+      "BUSINESS",
+      "COMMUNITY"
+    ]
+  },
+  {
+    "section": "FUTURE OF AI",
+    "title": "AI and your future career",
+    "lead": "Learn to work with AI. Keep developing human skills.",
+    "points": [
+      "Some repetitive work may become faster or automated.",
+      "Communication, critical thinking and subject knowledge still matter.",
+      "Practice checking AI output and building small real projects.",
+      "Nobody knows precisely how every job will change."
+    ],
+    "prompt": "Act as a career mentor for students in Pakistan. Suggest 5 practical skills students should develop to work well with AI. Explain each skill with an easy student example. Avoid uncertain job predictions stated as facts.",
+    "challenge": "Which ONE skill will you start improving this month?",
+    "visual": [
+      "LEARN",
+      "THINK",
+      "CHECK",
+      "BUILD"
+    ]
+  },
+  {
+    "section": "RESPONSIBLE AI",
+    "title": "Powerful tools. Real responsibility.",
+    "lead": "Great AI users know when to double-check and say no.",
+    "points": [
+      "VERIFY important facts and citations.",
+      "PROTECT passwords, private data and personal records.",
+      "RESPECT originality, fairness and copyright.",
+      "KEEP humans in control of payments and real-world actions."
+    ],
+    "prompt": "Write a short 4-rule Responsible AI pledge for students at the University of Turbat. Use positive, easy English and cover fact-checking, privacy, originality and human responsibility.",
+    "challenge": "Pick one rule you promise to follow.",
+    "visual": [
+      "VERIFY",
+      "PROTECT",
+      "RESPECT",
+      "APPROVE"
+    ]
+  },
+  {
+    "section": "TAKE ACTION",
+    "title": "The 7-day AI builder challenge",
+    "lead": "Leave this workshop with a project—not only notes.",
+    "points": [
+      "Day 1: choose a real local problem.",
+      "Day 2–3: gather safe context and test prompts.",
+      "Day 4–5: create a first draft, quiz or workflow.",
+      "Day 6: ask a friend to test it.",
+      "Day 7: improve it and share what you learned."
+    ],
+    "prompt": "Help me build a simple 7-day AI project about [LOCAL PROBLEM] using free tools on my phone. Give daily steps, example prompts, a small result I can show my teacher and one safety check.",
+    "challenge": "Choose your own problem before leaving today.",
+    "visual": [
+      "PROBLEM",
+      "PROTOTYPE",
+      "TEST",
+      "SHARE"
+    ]
   },
   {
     "section": "RECAP",
@@ -871,7 +981,7 @@ window.BOOTCAMP_SLIDES = [
       "AUTOMATE"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain you didn't just watch ai using a practical University of Turbat or everyday-life example. Invite the audience to take part: Audience reflection: Which tool would you use again tomorrow—and why?"
   },
   {
     "section": "THANK YOU",
@@ -890,6 +1000,6 @@ window.BOOTCAMP_SLIDES = [
       "SHARE"
     ],
     "link": "",
-    "note": ""
+    "note": "Explain the future is yours to build using a practical University of Turbat or everyday-life example. Invite the audience to take part: Thank you for taking part. Share what you build with others."
   }
 ];
