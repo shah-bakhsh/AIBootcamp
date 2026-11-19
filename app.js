@@ -43,9 +43,10 @@ return '<div class="qrwrap"><img src="'+escapeText(qrUrl(url))+'" alt="Scannable
 }
 function render(){
 const s=slides[index];if(!s)return;
+const phase=/FUTURE|RESPONSIBLE/.test(s.section)?(/RESPONSIBLE/.test(s.section)?"responsible":"future"):/CHALLENGE|TAKE ACTION|LIVE DEMO|DEMO/.test(s.section)?"exercise":/CLAUDE|NOTEBOOKLM|GAMMA|FLOW|SUNO|ZAPIER/.test(s.section)?"tool":"learning";
 document.title=s.title+" · AI Bootcamp 2026";
 const presentation=byId("presentation");
-presentation.className="slide"+(index===0?" is-intro":"")+(s.prompt&&s.points?.length>=3?" is-wide":"");
+presentation.className="slide"+(index===0?" is-intro":"")+(s.prompt&&s.points?.length>=3?" is-wide":"");presentation.dataset.phase=phase;presentation.dataset.slide=String(index+1).padStart(2,"0");
 presentation.innerHTML="";
 const left=document.createElement("div");left.className="copy";
 const list=s.points?.length?'<ul class="bullets">'+s.points.map(p=>"<li>"+escapeText(p)+"</li>").join("")+"</ul>":"";
@@ -102,6 +103,7 @@ byId("slideSearch").oninput=filterTiles;
 byId("tiles").onclick=(e)=>{const button=e.target.closest("[data-slide]");if(button){go(Number(button.dataset.slide));toggleOverview(false)}};
 byId("fullscreenBtn").onclick=()=>{if(document.fullscreenElement){document.exitFullscreen?.()}else{document.documentElement.requestFullscreen?.().catch(()=>showToast("Fullscreen not supported on this device"))}};
 byId("speakerBtn").onclick=()=>{notesOpen=!notesOpen;byId("note").classList.toggle("show",notesOpen);showToast(notesOpen?"Presenter notes shown":"Presenter notes hidden")};
+byId("shareBtn").onclick=()=>{const url=currentShareUrl();if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(url).then(()=>showToast("Presentation URL copied — share with students")).catch(()=>showToast(url));}else{showToast(url)}};
 window.addEventListener("hashchange",()=>{const h=location.hash.match(/slide-(\d+)/);if(h&&+h[1]!==index+1)go(Number(h[1])-1)});
 document.addEventListener("keydown",e=>{
 if(!byId("overviewPanel").classList.contains("hidden")){if(e.key==="Escape")toggleOverview(false);return;}
